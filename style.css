@@ -45,21 +45,41 @@ h1 span {
     font-weight: bold;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 section p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 28px;
-    color: #7D7987
+    color: #7D7987;
+    margin: 40px 0;
 }
 
 button {
+    color: white;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
+
+    background: #69B99D;
+    padding: 14px 32px 15px;
+    border: none;
+    border-radius: 4px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 footer {
     font-size: 14px;
     line-height: 28px;
+    text-align: center;
+    margin-top: 80px;
 }
 
 footer a {
