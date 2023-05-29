@@ -1,5 +1,12 @@
 body {
     margin: 0;
+
+    background: 
+        linear-gradient
+            (180deg, rgba(227, 255, 248, 0) 82.08%,
+            rgba(227, 255, 248, 0.38) 100%);
+
+    min-height: 100vh;
 }
 
 .page {
@@ -73,6 +80,12 @@ button {
     justify-content: center;
     align-items: center;
     gap: 10px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #54b996;
 }
 
 footer {
@@ -86,4 +99,10 @@ footer a {
     font-weight: bold;
     text-decoration: none;
     color: #1F1534;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
